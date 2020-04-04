@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Align - Main</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.dom.min.js"></script>
+    <script src="https://www.auduno.com/clmtrackr/build/clmtrackr.min.js"></script>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+
+<body>
+    
+    <div class="end-container">
+    <img src="images/logo.png" class="logo-main end" alt="logo">
+
+</div>
+
+<div class="end-product">
+    <div class= "instructions">
+    <img src="images/number1.PNG" class="dot">
+    <h2 class="show-me">Show me what your slouch looks like.</h2>
+        <div class="slouch-button">
+            <button type="button" class="calibrated-btn" onclick="calibrateSlouch()">Calibrate</button>
+        </div> 
+        <div id="success-text">
+            <p class="success">
+                success!
+            </p>
+        </div>
+    </div>
+    <div class= "instructions">
+        <img src="images/number2.PNG" class="dot">
+        <h2 class="show-me">Show me your ideal posture!</h2>
+        <div class="posture-button">
+            <button class="calibrated-btn" onclick="calibrateUpright()">Calibrate</button>
+        </div> 
+        <div id="other-success-text">
+            <p class="success">
+                success... happy working!
+            </p>
+        </div>
+    </div>
+</div>
+    
+
+<div class="slouching">
+    <p id="text"></p>
+</div>
+    <audio id="myAudio">
+        <source src="Alarm.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+<div id="reset-button" class="reset-button">
+    <p>It looks like you're slouching! ☹ Sit up and try again...</p>
+    <button class="calibrated-btn" onclick="slouched()">I'll do better!</button>
+</div>
+<!--Our Javascript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="Script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url('./images/bg-img.PNG');
+	/* background-image: linear-gradient(#FED35B,#F2A720); */
+	background-attachment: fixed;
+	/* overflow:hidden; */
+	height:100vh;
+}
+
+.opening-title {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 10vh;
+	color: white;
+}
+
+p {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 3vh;
+	margin-bottom: 0;
+}
+
+.logo-main {
+	width: 240px;
+	height: auto;
+}
+
+.page-container {
+	text-align: center;
+	padding-top: 30vh;
+}
+
+.get-started{
+	padding: 9px 36px;
+	margin-top: 10px;
+	color: #D99C3D;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	border-style: none;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 16px #D99C3D;
+	border-radius: 24px;
+}
+
+.get-started:hover{
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+.proper-posture {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 5vh;
+	color: white;
+	margin-bottom: 30px;
+}
+
+.posture-container {
+	/* display:inline-block;
+	text-align: center;
+ 	position: fixed;
+  top: 42%;
+  left: 29%;
+  margin-top: -75px;
+  margin-left: -100px; */
+ 	text-align: center;
+    padding-top: 20vh;
+}
+
+.posture-img {
+	width: 200px;
+	height: auto;
+	float: left;
+	margin-left: 20px;
+}
+
+.posture-sub {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: #D99C3D;
+	margin-top: 10px;
+	margin-bottom: -5px;
+	float: left;
+}
+
+.posture-tips {
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 110%;
+	font-weight: bold;
+	margin-top: 15px;
+	text-align: left;
+	line-height: 300%;
+	float: right;
+	margin-right: 20px;
+}
+
+.info-container{
+	text-align: center;
+	padding-top: 30vh;
+}
+
+.info-subs {
+	margin: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2vh;
+	color: #D99C3D;;
+	line-height: 200%;
+	display: inline;
+}
+
+.info-card {
+	background-color:rgba(255,255,255);
+	margin-top: 30px;
+	margin-bottom: 0px;
+	padding: 10px 10px 15px 45px;
+	width: 45%;
+	box-shadow: 0px 4px 18px #D99C3D;
+	border-radius: 16px;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.posture-card {
+	background-color:  white;
+	display: flex;
+	margin-top:10px;
+	margin-bottom: 10px;
+	padding: 20px;
+	width:525px;
+	box-shadow: 0px 4px 18px #D99C3D;
+	border-radius: 16px;
+	display: inline-block;
+
+}
+
+
+/**dealing with main calibration page from this point forward */
+
+.calibrated-btn {
+
+padding: 9px 36px;
+margin-top: 20px;
+margin-left: 20px;
+color: #D99C3D;
+font-family: 'Open Sans', sans-serif;
+font-weight: bold;
+font-size: 18px;
+border-style: none;
+background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(217, 156, 61, 0.75);
+border-radius: 24px;
+}
+
+.calibrated-btn:hover{
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+span.dot{
+position: relative;
+  background: #fff;
+  border-radius: 50%;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
+    width: 50px;
+   height:50px;
+
+  }
+
+
+.dot {
+	width:75px;
+	height: 75px;
+}
+
+.end {
+	width: 125px;
+	height: auto;
+	text-align: center;
+}
+
+.end-container {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.show-me {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 2.5vh;
+	margin-left:20px;
+	padding-top: 10px;
+	color: white;
+	float: right;
+}
+
+.success {
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	font-size: 1.8vh;
+	margin-left: 20px;
+	padding-top: 18px;
+	letter-spacing: 0.1vw;
+	color: white;
+	float: right;
+}
+
+.instructions {
+	display: flex;
+}
+
+.end-product {
+	/* margin-top: 10px; */
+	text-align: center;
+	width: 50%;
+	margin: auto;
+}
+
+#text {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
+.reset-button{
+	margin-top: 400px;
+	margin-bottom: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+.slouching {
+	text-align: center;
+}
+
+canvas {
+	transform: scale(0.75);
+}
+
+.how-it-works {
+	text-align: left;
+}
+
+.start-button {
+	margin-top: 30px;
+}
