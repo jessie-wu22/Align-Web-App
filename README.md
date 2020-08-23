@@ -5,3 +5,5 @@ Align is a web application that gives computer-users a personal posture-fixing h
 
 ![](alignimage2.png)
 ![](alignimage1.png)
+![](alignimage3.png)
+
